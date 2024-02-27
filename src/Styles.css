@@ -317,11 +317,17 @@ p, a, h1, h3 {
     background-color: #EEF2F8;
     border-radius: 5px;
     padding: 20px;
+    /*margin: auto;*/
 }
 
+.home-section-text p {
+    margin: 5px;
+}
+
+
 .home-section-text img {
-    width: 40px;
-    margin-bottom: 10px;;
+    width: 150px;
+    margin: 20px;
 }
 
 .home-section-text-1 {
