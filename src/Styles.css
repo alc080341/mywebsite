@@ -10,8 +10,8 @@ body {
     overflow-x: hidden;
 }
 
-p, h1, h3 {
-    font-family: sans-serif, Arial, Helvetica;
+p, a, h1, h3 {
+    font-family: arial, Helvetica, sans-serif;
 }
 
 .font-marketing-colour {
