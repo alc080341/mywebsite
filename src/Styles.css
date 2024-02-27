@@ -242,6 +242,12 @@ p, a, h1, h3 {
     min-height: 90vh;
     padding: 1rem;
     overflow: hidden;
+        /* Fallback for older browsers */
+        background-color: #ffffff;
+        /* For modern browsers */
+        background-image: linear-gradient(to top left, #036b81 5%,  #ffffff, #ffffff,  #ffffff);
+        /* Ensures proper rendering */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#036b81', endColorstr='#ffffff', GradientType=0);
 }
 
 .main-container {
