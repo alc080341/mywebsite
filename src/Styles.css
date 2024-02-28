@@ -611,7 +611,7 @@ p, a, h1, h3 {
   
   .about .about-text-section {
     background-color: #EEF2F8;
-    min-height: 350px;
+    /*min-height: 350px;*/
     padding: 30px;
     width: 50%;
     margin: auto;
