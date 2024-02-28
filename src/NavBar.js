@@ -31,8 +31,6 @@ class NavBar extends React.Component {
   render() {
     let visibilityClass = "header pulldown";
     let pulldown = (this.state.visible) ? visibilityClass : "header";
-    //<NavLink to="/contact" text="CONTACT"/>
-    //<NavLink to="/blog" text="BLOG"/>
     return (
     <nav className={pulldown}>
       <div className='flex-parent'>
@@ -43,6 +41,7 @@ class NavBar extends React.Component {
         <NavLink to="/" text="HOME" click={this.toggleMenuOff} />
         <NavLink to="/about" text="ABOUT" click={this.toggleMenuOff}/>
         <NavLink to="/projects" text="PROJECTS" click={this.toggleMenuOff}/>
+        <NavLink to="/codechambers" text="CREATIVE CHAMBER" click={this.toggleMenuOff}/>
       </div>
     </nav>)
   }
@@ -50,13 +49,6 @@ class NavBar extends React.Component {
 
 export default NavBar
 
-// Learn react hooks/Difference between class and function in react?
-// Customise and tidy all this code
-// Learn flexbox/grid add my styles
-// Add content projects etc
-// commit to git
-// upload to godaddy
-// write blog use node/express server???
 function NavLink({to, text, click})
 {
   const path = useResolvedPath(to);

@@ -163,7 +163,7 @@ p, a, h1, h3 {
     margin: 5px;
     background: linear-gradient(
       to bottom, 
-      #333, #333 10%, 
+      #333, #333 15%, 
       #fff 10%, #fff 50%, 
       #333 50%, #333 60%, 
       #fff 60%, #fff 90%, 
@@ -206,7 +206,7 @@ p, a, h1, h3 {
     .header.pulldown #headerMenuIcon {
         background: linear-gradient(
           to bottom, 
-          #333, #333 10%, 
+          #333, #333 15%, 
           #fff 10%, #fff 50%, 
           #333 50%, #333 60%, 
           #fff 60%, #fff 90%, 
@@ -648,11 +648,23 @@ p, a, h1, h3 {
       }
     
     }
-  /**
-CSS hints
-Have a standard - for consistency - this is how i always...
-global and specific
-**/
+  
+/** CODE CHAMBER PAGE */
+.code-chambers {
+        width: 75vw;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .code-chambers .code-chambers-section {
+        padding-top: 10px;
 
+    }
 
+    @media all and (max-width: 1000px) {
+        .code-chambers {
+            width: 100%;
+        }
+    }
+    
 
