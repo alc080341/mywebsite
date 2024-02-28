@@ -326,7 +326,7 @@ p, a, h1, h3 {
 
 
 .home-section-text img {
-    width: 150px;
+    width: 80px;
     margin: 20px;
 }
 
@@ -356,7 +356,7 @@ p, a, h1, h3 {
     width: 90%;
 }
 
-@media all and (max-width:1000px) {
+@media all and (max-width:900px) {
     .home {
         grid-template-areas:
         'home-section-image'
