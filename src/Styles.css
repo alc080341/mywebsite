@@ -20,6 +20,7 @@ p, a, h1, h3 {
 
 .font-marketing-fontlarge {
     font-size: larger;
+    padding: 20px !important;
 }
 
 .flex-parent {
@@ -242,12 +243,12 @@ p, a, h1, h3 {
     min-height: 90vh;
     padding: 1rem;
     overflow: hidden;
-        /* Fallback for older browsers */
-        background-color: #ffffff;
-        /* For modern browsers */
-        background-image: linear-gradient(to top left, #036b81 5%,  #ffffff, #ffffff,  #ffffff);
-        /* Ensures proper rendering */
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#036b81', endColorstr='#ffffff', GradientType=0);
+    /* Fallback for older browsers */
+    background-color: #ffffff;
+    /* For modern browsers */
+    background-image: linear-gradient(350deg, #036b81 5%,  #ffffff, #ffffff,  #ffffff);
+    /* Ensures proper rendering */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#036b81', endColorstr='#ffffff', GradientType=0);
 }
 
 .main-container {
@@ -305,44 +306,55 @@ p, a, h1, h3 {
 .home {
     display: grid;
     grid-template-areas:
-    'home-section-text-1 home-section-text-1 home-section-image'
-    'home-section-text-2 home-section-text-3 home-section-image';
+    'home-section-statement-1 home-section-statement-1 home-section-image'
+    'home-section-statement-2 home-section-statement-3 home-section-image';
     grid-gap: 35px;
-    padding: 10px;
+    /*padding: 10px;*/
     height: 100%;
     margin-top: 20px;
   }
 
-.home-section-text {
+.home-section-statement {
     background-color: #EEF2F8;
     border-radius: 5px;
-    padding: 20px;
-    /*margin: auto;*/
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
 }
 
-.home-section-text p {
+.home-section-statement p {
     margin: 5px;
 }
 
 
-.home-section-text img {
+.home-section-statement img {
     width: 80px;
-    margin: 20px;
+    margin-bottom: 10px;
 }
 
-.home-section-text-1 {
-    grid-area: home-section-text-1;
+.home-section-statement-1 {
+    grid-area: home-section-statement-1;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
 }
 
-.home-section-text-2 {
-    grid-area: home-section-text-2;
+.home-section-statement-1 div {
+    padding: 25px;
+}
+
+.home-section-statement-2 {
+    grid-area: home-section-statement-2;
     text-align: center;
 }
 
-.home-section-text-3 {
-    grid-area: home-section-text-3;
+.home-section-statement-3 {
+    grid-area: home-section-statement-3;
     text-align: center;
 }
 
@@ -360,35 +372,29 @@ p, a, h1, h3 {
     .home {
         grid-template-areas:
         'home-section-image'
-        'home-section-text-1'
-        'home-section-text-2'
-        'home-section-text-3';
+        'home-section-statement-1'
+        'home-section-statement-2'
+        'home-section-statement-3';
         grid-gap: 10px;
         margin-top: initial;
     }    
 
+    .home-section-statement-1 div {
+        padding: 15px;
+    }
+    
+    .home-section-statement-1 h1 {
+        font-size: 20px;
+    }
+   
+    .home-section-statement-1 .font-marketing-fontlarge {
+        font-size: larger;
+        padding: 5px !important;
+    }
+   
     .home-section-image {
         width: 50%;
     }
-
-    /*.home-section-text-1 {
-        background: #ffffff;
-        opacity: 0.9;
-        z-index: 10;
-    }
-  
-    .home-section-image {
-        position: absolute;
-        text-align: center;
-        z-index: 9;
-        padding: 50px;
-        margin: auto;
-        width: 100%;
-    }
-
-    .home-section-image img {
-        width: 50%;
-    }*/
 }
 
 /** PORTFOLIO PAGE **/
@@ -407,13 +413,17 @@ p, a, h1, h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    /*gap: 1rem;*/
 }
 
 .portfolio-section-text {
     width: 25vw;
     margin: auto;
     margin-top: 0;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+
 }
 
 .portfolio-section-text-margin {
@@ -421,12 +431,12 @@ p, a, h1, h3 {
 }
 
 .portfolio-section-image {
-    width: 25vw;
+    /*width: 25vw;*/
 }    
 
 .portfolio-section-image img {
     width: 100%;
-    height: 250px;
+    max-height: 250px;
     border: 1px solid #333;
 }    
 
@@ -452,7 +462,7 @@ p, a, h1, h3 {
         text-align: center;
         padding-top: 30px;
         padding-bottom: 30px;
-        border-bottom: 1px solid #333;
+        /*border-bottom: 1px solid #333;*/
     }
 
     .portfolio-section-text-margin {
