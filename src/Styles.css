@@ -430,10 +430,6 @@ p, a, h1, h3 {
     margin-top: 75px;
 }
 
-.portfolio-section-image {
-    /*width: 25vw;*/
-}    
-
 .portfolio-section-image img {
     width: 100%;
     max-height: 250px;
@@ -444,6 +440,15 @@ p, a, h1, h3 {
     font-size: smaller;
     font-weight: bold;
     color: #333;
+}
+
+.portfolio-section-divider {
+    background-color: #dcdcdc;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    font-size: 40px;
+    font-family: system-ui;
 }
 
 @media all and (max-width: 1000px) {

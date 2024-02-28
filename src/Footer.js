@@ -13,6 +13,7 @@ export default function Footer() {
                 <FooterLink to="/" text="Home" />
                 <FooterLink to="/about" text="About" />
                 <FooterLink to="/projects" text="Projects" />
+                <FooterLink to="/codechambers" text="Creative Chamber" />
             </ul>
         </nav>
     )
