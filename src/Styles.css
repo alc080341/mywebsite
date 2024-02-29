@@ -50,6 +50,12 @@ p, a, h1, h3 {
 .align-center {
     text-align: center;    
 }
+.sticky {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 20px; /* Stick to the top of the viewport */
+    z-index: 1000; /* To ensure it's on top of other content */
+}
 
 
 @-webkit-keyframes fadeIn {
@@ -169,7 +175,7 @@ p, a, h1, h3 {
     margin: 5px;
     background: linear-gradient(
       to bottom, 
-      #333, #333 15%, 
+      #333, #333 12%, 
       #fff 10%, #fff 50%, 
       #333 50%, #333 60%, 
       #fff 60%, #fff 90%, 
@@ -212,7 +218,7 @@ p, a, h1, h3 {
     .header.pulldown #headerMenuIcon {
         background: linear-gradient(
           to bottom, 
-          #333, #333 15%, 
+          #333, #333 12%, 
           #fff 10%, #fff 50%, 
           #333 50%, #333 60%, 
           #fff 60%, #fff 90%, 
@@ -399,7 +405,7 @@ p, a, h1, h3 {
     }
    
     .home-section-image {
-        width: 50%;
+        width: 65%;
     }
 }
 
@@ -450,8 +456,8 @@ p, a, h1, h3 {
 
 .portfolio-section-divider {
     background-color: #dcdcdc;
-    margin: 20px;
-    padding: 15px;
+    margin: 5px;
+    padding: 5px;
     text-align: center;
     font-size: 40px;
     font-family: system-ui;
@@ -488,7 +494,7 @@ p, a, h1, h3 {
     .portfolio-section-image img {
         width: 90%;
         max-width: 250px;
-        min-height: 175px;
+        min-height: 165px;
     }    
 }
 

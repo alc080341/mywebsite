@@ -19,7 +19,7 @@ export default function CodeChambers() {
         </div>
         <div class="code-chambers-section">
           <h3>Web Development Foundations</h3>
-          <p>This playlist contains an ongoing set of tutorial videos where I teach the basics of coding a website</p>
+          <p>This playlist features a continuous series of tutorial videos where I guide you through the fundamentals of coding a website.</p>
           <iframe class="code-chambers-video"  src="https://www.youtube.com/embed/videoseries?list=PLt1HN0-7gs71wCjbI2RQYeV0QCwlM4P2V" title="Web Development Foundations - Learn practical HTML, CSS &amp; JavaScript  - part 1. getting started" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
