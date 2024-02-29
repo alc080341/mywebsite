@@ -41,7 +41,7 @@ class NavBar extends React.Component {
         <NavLink to="/" text="HOME" click={this.toggleMenuOff} />
         <NavLink to="/about" text="ABOUT" click={this.toggleMenuOff}/>
         <NavLink to="/projects" text="PROJECTS" click={this.toggleMenuOff}/>
-        <NavLink to="/codechambers" text="CREATIVE CHAMBER" click={this.toggleMenuOff}/>
+        <NavLink to="/codechambers" text="CODE CHAMBERS" click={this.toggleMenuOff}/>
       </div>
     </nav>)
   }

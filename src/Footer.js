@@ -13,8 +13,9 @@ export default function Footer() {
                 <FooterLink to="/" text="Home" />
                 <FooterLink to="/about" text="About" />
                 <FooterLink to="/projects" text="Projects" />
-                <FooterLink to="/codechambers" text="Creative Chamber" />
+                <FooterLink to="/codechambers" text="Code Chambers" />
             </ul>
+            <div className="align-center"><p>V1.0.0 28/02/2024</p></div>
         </nav>
     )
 }
