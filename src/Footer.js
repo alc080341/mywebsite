@@ -20,6 +20,7 @@ export default function Footer() {
     )
 }
 
+// ### GENERATES A LINK / ANCHOR TAG FOR THE FOOTER
 function FooterLink({ to, text }) {
     const path = useResolvedPath(to);
     const isActive = useMatch({ path: path.pathname, end: true });

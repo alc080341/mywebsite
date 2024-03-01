@@ -46,10 +46,12 @@ p, a, h1, h3 {
     text-decoration: none;
 }
 
-/** USEFUL */
+/** USEFUL - UTLITY CLASSES */
+
 .align-center {
     text-align: center;    
 }
+
 .sticky {
     position: -webkit-sticky; /* For Safari */
     position: sticky;
@@ -89,8 +91,7 @@ p, a, h1, h3 {
 }
 
 
-
-/** ITEM SPECIFIC STYLES **/
+/** ITEM/PAGE SPECIFIC STYLES **/
 
 /** HEADER SECTION **/
 .header {
@@ -248,6 +249,7 @@ p, a, h1, h3 {
     }
 }
 
+
 /** MAIN SECTION **/
 
 .main {
@@ -266,6 +268,7 @@ p, a, h1, h3 {
 .main-container {
     min-height: 90vh;
 }
+
 
 /** FOOTER SECTION **/
 
@@ -321,7 +324,6 @@ p, a, h1, h3 {
     'home-section-statement-1 home-section-statement-1 home-section-image'
     'home-section-statement-2 home-section-statement-3 home-section-image';
     grid-gap: 35px;
-    /*padding: 10px;*/
     height: 100%;
     margin-top: 20px;
   }
@@ -339,7 +341,6 @@ p, a, h1, h3 {
 .home-section-statement p {
     margin: 5px;
 }
-
 
 .home-section-statement img {
     width: 80px;
@@ -409,6 +410,7 @@ p, a, h1, h3 {
     }
 }
 
+
 /** PORTFOLIO PAGE **/
 
 .portfolio {
@@ -425,7 +427,6 @@ p, a, h1, h3 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*gap: 1rem;*/
 }
 
 .portfolio-section-text {
@@ -498,6 +499,7 @@ p, a, h1, h3 {
     }    
 }
 
+
 /** ABOUT PAGE **/
 
 .about {
@@ -513,6 +515,7 @@ p, a, h1, h3 {
     gap: 1rem;
 }
 
+/** The floating squares */
 .about .square {
     position: absolute;
     width: 100px;
@@ -612,7 +615,6 @@ p, a, h1, h3 {
     animation-delay: 4s;
   }
 
-
   @keyframes float {
     0% {
       transform: translate(0, 0);
@@ -629,7 +631,6 @@ p, a, h1, h3 {
   
   .about .about-text-section {
     background-color: #EEF2F8;
-    /*min-height: 350px;*/
     padding: 30px;
     width: 50%;
     margin: auto;
@@ -667,7 +668,7 @@ p, a, h1, h3 {
     
     }
   
-/** CODE CHAMBER PAGE */
+/** CODE CHAMBERS PAGE */
 .code-chambers {
         width: 75vw;
         margin: auto;
@@ -695,4 +696,3 @@ p, a, h1, h3 {
         }    
     }
     
-

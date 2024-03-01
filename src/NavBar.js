@@ -10,6 +10,7 @@ class NavBar extends React.Component {
     };
   }
 
+  // ### STATE USED FOR OPEN/SHOW STATE OF HAMBURGER DROPDOWN
   toggleMenu = () => {
     this.setState({
       visible: !this.state.visible
@@ -26,9 +27,8 @@ class NavBar extends React.Component {
     this.toggleMenuOff = this.toggleMenuOff.bind(this);
   }
 
-  // Add nav button to own compenent
-  // see instructions on how to handle props VITE create-react-app
   render() {
+    // ### PULLDOWN CLASS INCREASES THE VIEWPORT HEIGHT OF THE HEADER AND 'STACKS' MENU ELEMENTS FOR SMALLER DEVICES WHEN HAMBURGER IS CLICKED 
     let visibilityClass = "header pulldown";
     let pulldown = (this.state.visible) ? visibilityClass : "header";
     return (
@@ -49,12 +49,16 @@ class NavBar extends React.Component {
 
 export default NavBar
 
+// ### GENERATES A LINK / ANCHOR TAG FOR THE FOOTER
 function NavLink({to, text, click})
 {
   const path = useResolvedPath(to);
+
+  // ### CHECK IF CURRENT LINK IS ACTIVE BY CHECKING CURRENT PATH IN URL
   const isActive = useMatch({path: path.pathname, end: true});
 
   let className = null;
+  // ### IF CURRENT LINK === CURRENT PATH, SET ACTIVE - THIS IS THE CURRENT PAGE
   className = isActive ? "navlink active": "navlink";
   
   return (

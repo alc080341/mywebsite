@@ -5,7 +5,7 @@ import AboutPageImg3 from "../images/icon_sm2.png";
 
 export default function Home() {
 
-  // some comment
+  // ### RESET UI TO TOP OF PAGE 
   useEffect(() => {
     window.scrollTo(0,0);
   }, []);
