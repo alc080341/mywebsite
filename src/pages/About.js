@@ -13,7 +13,7 @@ export default function About() {
           <div className="about-text-section">
             <h1>I have built many web based solutions</h1>
             <p>As a seasoned software developer, I offer a depth of experience in crafting innovative web-based solutions, harnessing a diverse array of cutting-edge technologies.</p>
-            <p>Throughout my journey as a software developer, I've thrived within dynamic commercial environments, collaborating seamlessly within agile teams at multinational corporations. Yet, I've also taken the reins on independent projects, tailoring solutions to the unique needs of small institutions while nurturing personal growth and expertise.</p>
+            <p>Throughout my journey as a software developer, I've thrived within a dynamic commercial environment, collaborating seamlessly within an agile team at a multinational corporation. Yet, I've also taken the reins on independent projects, tailoring solutions to the unique needs of small institutions while nurturing personal growth and expertise.</p>
             <p>My contributions have spanned a wide spectrum of responsibilities, ranging from intricate user interface designs to the nuanced complexities of business logic and database architecture. Additionally, I've ventured into the realm of hybrid app development, crafting solutions for phones and tablets across both Android and iOS platforms.</p>
           </div>
           <div className="about-text-image">
