@@ -4,12 +4,23 @@ import Projects from './pages/Projects';
 import About from "./pages/About";
 import CodeChambers from "./pages/CodeChambers";
 import Footer from './Footer';
-
-import { Route, Routes } from "react-router-dom";
+import { Helmet } from 'react-helmet';
+import { Route, Router, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
+    <Helmet>
+        <title>Chambers Creative | Affordable Oxford Web Development</title>
+        <meta
+          name="description"
+          content="Experienced Software Developer specialising in the design and development of valuable web-based solutions, both independently and in a commercial environment."
+        />
+        <meta
+          name="keywords"
+          content="Web development Oxford, software developer oxford, HTML, react, CSS, JavaScript, responsive, SQL, free web design tutorial, how to code, easy to learn, learn coding"
+        />
+      </Helmet>
       <header>
         <NavBar />
       </header>
