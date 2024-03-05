@@ -14,11 +14,11 @@ function App() {
         <title>Chambers Creative | Affordable Oxford Web Development</title>
         <meta
           name="description"
-          content="Experienced Software Developer specialising in the design and development of valuable web-based solutions, both independently and in a commercial environment."
+          content="Experienced Software Developer specialising in the design and development of valuable web-based solutions, both independently and in a commercial environment. Home to Code Chambers - learn HTML and coding for the web."
         />
         <meta
           name="keywords"
-          content="Web development Oxford, software developer oxford, HTML, react, CSS, JavaScript, responsive, SQL, free web design tutorial, how to code, easy to learn, learn coding"
+          content="Web development Oxford, software developer oxford, HTML, react, CSS, JavaScript, responsive, SQL, free web design tutorial, how to code, easy to learn, learn coding, how do websites work, from scratch"
         />
       </Helmet>
       <header>
