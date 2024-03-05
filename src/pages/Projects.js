@@ -14,6 +14,10 @@ import PortfolioPageImg13 from "../images/townsendwindows_pic.jpg";
 import PortfolioPageImg14 from "../images/vespula_pic.png";
 import PortfolioPageImg15 from "../images/certsuite_pic.png";
 import PortfolioPageImg16 from "../images/fitcore_pic.jpg";
+import PortfolioPageImg17 from "../images/PAT_pic.png";
+import PortfolioPageImg18 from "../images/csadmin_pic.png";
+import PortfolioPageImg19 from "../images/helpscout_pic.png";
+import PortfolioPageImg20 from "../images/app_pic.png";
 
 
 export default function Projects() {
@@ -31,6 +35,14 @@ export default function Projects() {
           </div>
           <div className="portfolio-section-divider">RECENT</div>
           <div className="portfolio-section">
+            <div className="portfolio-section-text"><div className="portfolio-section-image"><img src={PortfolioPageImg17} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>INTERFACE FOR PAT TESTING APP</p><p>I developed the interface for an app tailored for PAT testing of electrical equipment. Given the exigencies of the task, our primary focus rested on ensuring swift functionality and seamless navigation between assets and pages. Collaboratively, our team refined an interface that exuded a distinctly 'app-like' feel, surpassing the conventional CertSuite design. Users can effortlessly access necessary pages via an intuitive icon menu anchored at the screen's bottom. Additionally, I integrated a barcode and QR code scanning feature, facilitating the swift extraction of asset data for testing purposes.</p></div>
+            <div className="portfolio-section-text portfolio-section-text-margin"><div className="portfolio-section-image"><img src={PortfolioPageImg18} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>CERTSUITE ADMIN IMPROVEMENTS</p><p>I enhanced the user experience of the CertSuite admin system by incorporating various features, including improved page navigation, enhanced search capabilities, and bug fixes. This collaborative effort involved working closely with the primary user of the admin system, who provided invaluable insights and requirements aimed at significantly improving system efficiency and usability.</p></div>
+          </div>          
+          <div className="portfolio-section">
+            <div className="portfolio-section-text"><div className="portfolio-section-image"><img src={PortfolioPageImg15} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>UX IMPROVEMENTS IN CERTSUITE</p><p>Implemented a bunch of user experience improvements to target 'pain points' experienced by users when using CertSuite user interface for the first time, based on complaints and feedback. This included making the flow of creating a first job easier. This resulted in a substantial reduction in complaints.</p></div>
+            <div className="portfolio-section-text portfolio-section-text-margin"><div className="portfolio-section-image"><img src={PortfolioPageImg15} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>ADDED MIT TESTER SUPPORT TO CERTSUITE</p><p>Translated Byte data from the MIT tester into CertSuite. Achieved this by reading device documentation to determine how to interpret the data, then 'mimicking' the same functionality in the CertSuite JavaScript code.</p></div>
+          </div>          
+          <div className="portfolio-section">
             <div className="portfolio-section-text"><div className="portfolio-section-image"><img src={PortfolioPageImg15} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>ADDED DLRO2X TESTER SUPPORT IN CERTSUITE</p><p>Implemented functionality to convert byte data sent from the device, from the TCP stream and its payload, into a readable format. Subsequently, integrated these results into an existing user interface to display them as graphs and tables to users.</p></div>
             <div className="portfolio-section-text portfolio-section-text-margin"><div className="portfolio-section-image"><img src={PortfolioPageImg16} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>FIT-IN</p><p>Currently working on a concept fitness app to help people to fit exercise within a busy lifestyle. This is prototype only at the moment.</p></div>
           </div>          
@@ -44,6 +56,10 @@ export default function Projects() {
             <div className="portfolio-section-text portfolio-section-text-margin"><div className="portfolio-section-image"><img src={PortfolioPageImg15} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>MFT X1 TESTER AND CERTSUITE DATA TRANSFER</p><p>Implemented a solution that allows byte data sent across BLE from the MFT X1 tester to be interpreted as results in CertSuite, and displayed on the user interface.</p></div>
           </div>          
           <div className="portfolio-section-divider">2021</div>
+          <div className="portfolio-section">
+            <div className="portfolio-section-text"><div className="portfolio-section-image"><img src={PortfolioPageImg20} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>ANDROID/IOS CERTSUITE APP</p><p>Using the Apache Cordova environment, migrated the CertSuite web code into a hybrid web app environment allowing fast turnaround for the production and release of apps for both Android and IOS.</p></div>
+            <div className="portfolio-section-text portfolio-section-text-margin"><div className="portfolio-section-image"><img src={PortfolioPageImg19} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>HELPSCOUT INTEGRATION</p><p>Integrated HelpScout into CertSuite to offer users a way to access help anywhere in the app. Then worked with the Domain Expert to add contextualised articles to various places across the app.</p></div>
+          </div>          
           <div className="portfolio-section">
             <div className="portfolio-section-text"><div className="portfolio-section-image"><img src={PortfolioPageImg15} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>WORK WITH MEGGER LTD - CERTSUITE REBRANDING</p><p>Reworked Vespula user interface to adhere to Megger branding guidelines, following the aquisition of the Vespula software by Megger in 2020. Vespula then became CertSuite</p><p> <a href="certsuite.app">Click here</a> to go to CertSuite website </p></div>
             <div className="portfolio-section-text portfolio-section-text-margin"><div className="portfolio-section-image"><img src={PortfolioPageImg15} alt='Megger CertSuite website'/></div><p className='portfolio-section-title'>INTEGRATED AUTOMATED PAYMENT SYSTEM IN CERTSUITE SOFTWARE</p><p>Engineered an automated payment system to streamline invoice management, eliminating manual invoicing processes. Collaborated with stakeholders to understand existing invoicing workflows and implemented automatic invoice creation and expiration renewal functionalities.</p></div>
