@@ -12,10 +12,10 @@ function App() {
   return (
     <>
     <Helmet>
-        <title>Chambers Creative | Affordable Oxford Web Development</title>
+        <title>Experienced Oxford Developer - UX and SEO friendly web apps</title>
         <meta
           name="description"
-          content="Experienced Oxford based Software Developer specialising in the design and development of valuable web-based solutions for all screen sizes, both independently and in a commercial environment, and for multiple plafforms including Android and IOS. Home to Code Chambers - learn HTML and coding for the web."
+          content="Get a modern website for 2024! Experienced Oxford based Software Developer specialising in the design and development of web apps for all devices including Android and IOS, that offer great user experience, account for accessibility, and are SEO friendly."
         />
         <meta
           name="keywords"
