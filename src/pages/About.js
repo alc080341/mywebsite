@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 export default function About() {
 
@@ -76,7 +77,7 @@ export default function About() {
           <div className="about-text-section">
             <h3>My Approach</h3>
             <p>Software derives its essence from the individuals who engage with it—I prioritize user experience best practices throughout the design process. </p><p>This commitment encompasses designing with accessibility in mind, acknowledging the diverse needs of potential users across various devices and screen dimensions.</p><p> Additionally, it entails maintaining active stakeholder engagement at every stage of development.</p>
-            <p><a href='mailto:chambersltony80@gmail.com'>Contact me</a> for more information on the projects I have been involved in, and how I could help you with your project(s).</p>
+            <p><Link to="/contact">Contact Me</Link> for more information on the projects I have been involved in, and how I could help you with your project(s).</p>
           </div>
         </div>
       </div>
