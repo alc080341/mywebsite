@@ -24,6 +24,11 @@ export default function Projects() {
 
   useEffect(() => {
     window.scrollTo(0,0);
+    let main = document.getElementById("main");
+    if(main)
+    {
+      main.classList.remove("background");
+    }
   }, []);
 
   return (

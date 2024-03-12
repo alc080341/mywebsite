@@ -9,6 +9,12 @@ export default function Home() {
   // ### RESET UI TO TOP OF PAGE 
   useEffect(() => {
     window.scrollTo(0,0);
+
+    let main = document.getElementById("main");
+    if(main)
+    {
+      main.classList.add("background");
+    }
   }, []);
 
   return (

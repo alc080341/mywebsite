@@ -4,6 +4,7 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import About from "./pages/About";
 import CodeChambers from "./pages/CodeChambers";
+import PostChangingCareer from './pages/PostChangingCareer';
 import Footer from './Footer';
 import { Helmet } from 'react-helmet';
 import { Route, Router, Routes } from "react-router-dom";
@@ -25,7 +26,7 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main className='main'>
+      <main className='main' id='main'>
         <div className='main-container'>
           <Routes>
             <Route path="/" element={<Home />}></Route>
@@ -33,6 +34,7 @@ function App() {
             <Route path="/projects" element={<Projects />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/codechambers" element={<CodeChambers />}></Route>
+            <Route path="/postchangingcareer" element={<PostChangingCareer />}></Route>
           </Routes>
         </div>
       </main>

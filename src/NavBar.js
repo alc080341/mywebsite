@@ -55,15 +55,21 @@ function NavLink({to, text, click})
 {
   const path = useResolvedPath(to);
 
+ let toSplit = to.split("/");
+ let id="home";
+ if(toSplit.length > 1)
+ {
+    id = toSplit[1];
+ }
+
   // ### CHECK IF CURRENT LINK IS ACTIVE BY CHECKING CURRENT PATH IN URL
   const isActive = useMatch({path: path.pathname, end: true});
 
   let className = null;
   // ### IF CURRENT LINK === CURRENT PATH, SET ACTIVE - THIS IS THE CURRENT PAGE
   className = isActive ? "navlink active": "navlink";
-  
   return (
-  <div className={className} onClick={click}>
+  <div className={className} onClick={click} id={id + "nav"}>
     <Link to={to}>
       {text}
     </Link>

@@ -6,9 +6,14 @@ export default function Contact() {
   var message = React.createRef();
   const [msg, setResponse] = useState(<p></p>);
 
-  // ### RESET UI TO TOP OF PAGE
+  // ### RESET UI ON PAGE CHANGE
   useEffect(() => {
     window.scrollTo(0, 0);
+    let main = document.getElementById("main");
+    if(main)
+    {
+      main.classList.add("background");
+    }
   }, []);
 
   const handleSubmit = async (event) => {
