@@ -12,11 +12,12 @@ export default function Footer() {
             <ul>
                 <FooterLink to="/" text="Home" />
                 <FooterLink to="/about" text="About" />
+                <FooterLink to="/services" text="Services" />
                 <FooterLink to="/projects" text="Projects" />
                 <FooterLink to="/contact" text="Contact" />
                 <FooterLink to="/codechambers" text="Code Chambers" />
             </ul>
-            <div className="align-center"><p>V1.0.1 11/03/2024</p></div>
+            <div className="align-center"><p>V2.0.0 12/03/2024</p></div>
         </nav>
     )
 }

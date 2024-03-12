@@ -40,6 +40,7 @@ class NavBar extends React.Component {
       <div id='headerMenuNavContainer' className='flex-parent'>
         <NavLink to="/" text="HOME" click={this.toggleMenuOff} />
         <NavLink to="/about" text="ABOUT" click={this.toggleMenuOff}/>
+        <NavLink to="/services" text="SERVICES" click={this.toggleMenuOff}/>
         <NavLink to="/projects" text="PROJECTS" click={this.toggleMenuOff}/>
         <NavLink to="/contact" text="CONTACT" click={this.toggleMenuOff}/>
         <NavLink to="/codechambers" text="CODE CHAMBERS" click={this.toggleMenuOff}/>

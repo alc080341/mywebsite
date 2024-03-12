@@ -836,7 +836,7 @@ textarea {
 }
 
 .contact textarea {
-    height: 300px;
+    height: 250px;
 }
 
 .contact .container button {
@@ -869,3 +869,55 @@ textarea {
     }
 
 }
+
+
+/** SERVICES PAGE **/
+
+.services {
+    width: 75vw;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.services .services-section {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #EEF2F8;
+}
+
+.services .services-section.dark {
+    background-color: #036b81;
+}
+
+
+.services .services-section div {
+    padding: 10px;
+}
+
+.services .services-section.dark h1, .services .services-section.dark h3, .services .services-section.dark p, .services .services-section.dark a {
+    color: #fff;
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.75); /* Start from no scale (invisible) */
+        opacity: 0; /* Start from transparency */
+    }
+    to {
+        transform: scale(1); /* Zoom in to normal scale */
+        opacity: 1; /* Fully opaque */
+    }
+}
+
+.zoom-in {
+    animation: zoomIn 500ms ease; /* Adjust animation duration and timing function */
+}
+
+
+@media all and (max-width: 1000px) {
+    .services {
+        width: 100%;
+    }
+}
+
