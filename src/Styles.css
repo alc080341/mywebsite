@@ -901,7 +901,9 @@ textarea {
 
 @keyframes zoomIn {
     from {
-        transform: scale(0.75); /* Start from no scale (invisible) */
+        transform: scale(0) rotate(45deg);
+        transform-origin:  top left; /* 
+        transform: scale(0); /* Start from no scale (invisible) */
         opacity: 0; /* Start from transparency */
     }
     to {
@@ -911,7 +913,7 @@ textarea {
 }
 
 .zoom-in {
-    animation: zoomIn 500ms ease; /* Adjust animation duration and timing function */
+    animation: zoomIn 2000ms ease; /* Adjust animation duration and timing function */
 }
 
 

@@ -8,6 +8,10 @@ const ServicesComponent4 = (props) => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         setIsVisible(entry.isIntersecting);
+        if(entry.isIntersecting)
+        {
+          observer.disconnect();
+        }
       },
       {
         root: null, // viewport
