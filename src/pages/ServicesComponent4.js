@@ -16,7 +16,7 @@ const ServicesComponent4 = (props) => {
       {
         root: null, // viewport
         rootMargin: "0px",
-        threshold: 0.2, // 0: element enters viewport, 1: element fully in viewport
+        threshold: 0, // 0: element enters viewport, 1: element fully in viewport
       }
     );
 
@@ -37,7 +37,6 @@ const ServicesComponent4 = (props) => {
         ref={intersectionRef}
         className={isVisible ? "services-section zoom-in" : "services-section"}
       >
-        <div className="image-section"></div>
         <div className="text-section">
           <h1>Let's make your product even greater together!</h1>
           <p>How else can I help?</p>

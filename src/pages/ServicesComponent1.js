@@ -16,7 +16,7 @@ const ServicesComponent1 = (props) => {
       {
         root: null, // viewport
         rootMargin: "0px",
-        threshold: 0.2, // 0: element enters viewport, 1: element fully in viewport
+        threshold: 0, // 0: element enters viewport, 1: element fully in viewport
       }
     );
 
@@ -37,7 +37,6 @@ const ServicesComponent1 = (props) => {
         ref={intersectionRef}
         className={isVisible ? "services-section dark zoom-in" : "services-section dark"}
       >
-        <div className="image-section"></div>
         <div className="text-section">
           <h1>A basic website? Full application?</h1>
           <p>

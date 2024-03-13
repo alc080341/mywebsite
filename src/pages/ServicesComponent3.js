@@ -17,7 +17,7 @@ const ServicesComponent3 = (props) => {
       {
         root: null, // viewport
         rootMargin: "0px",
-        threshold: 0.2, // 0: element enters viewport, 1: element fully in viewport
+        threshold: 0, // 0: element enters viewport, 1: element fully in viewport
       }
     );
 
@@ -38,9 +38,8 @@ const ServicesComponent3 = (props) => {
         ref={intersectionRef}
         className={isVisible ? "services-section dark zoom-in" : "services-section dark"}
       >
-        <div className="image-section"></div>
         <div className="text-section">
-          <h1>What type of design do you need? Here are a few examples of the types of design services that I typically provide:</h1>
+          <h1>What type of design do you need? </h1><h3>Here are a few examples of the types of design services that I typically provide:</h3>
           <h3>Portfolio website</h3>
           <p>
               A portfolio website is my basic service. This would include, for example, 4 or 5 pages, 1 or 2 special effects (for example, a slider or carousel - as per specification), a form or a blog (possibly both). Such simple sites can be coded from scratch and have the advantage of being fully unique (being coded from scratch gives you control over the design that you would struggle to achieve with a website creator or a site from a website designer who does not code!). As they are so simple, they are also extremely affordable, and I offer them from as little as £80. Such clients that benefit from these small sites include those that are self-employed such as those in the trades, coaches, or therapists.

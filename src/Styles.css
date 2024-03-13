@@ -195,7 +195,7 @@ body {
 @media all and (max-width: 1000px) {
     .header {
         flex-direction: column;
-        height: 55px;
+        height: 53px;
         overflow: hidden;
         transition: height 1s, background-color 2s, border-bottom 3s;
         background: #ffffff;
@@ -881,6 +881,7 @@ textarea {
 
 .services .services-section {
     margin: 10px;
+    margin-top: 30px;
     border-radius: 5px;
     padding: 10px;
     background-color: #EEF2F8;
@@ -893,6 +894,10 @@ textarea {
 
 .services .services-section div {
     padding: 10px;
+}
+
+.services .services-section h1, .services .services-section h3 {
+    margin-top: 0;
 }
 
 .services .services-section.dark h1, .services .services-section.dark h3, .services .services-section.dark p, .services .services-section.dark a {
