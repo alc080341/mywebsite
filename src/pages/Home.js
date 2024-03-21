@@ -24,7 +24,7 @@ export default function Home() {
         </title>
         <meta
           name="description"
-          content="Get a modern website for 2024! Experienced Oxford based Software Developer specialising in the design and development of web apps for all devices including Android and IOS, that offer great user experience, account for accessibility, and are SEO friendly."
+          content="Upgrade Your Small Business or Startup with a Cutting-Edge Website in 2024! Trust the Expertise of an Oxford-Based Software Developer, Focused on Crafting Web Solutions for Every Device, Including Android and IOS. Our Designs Prioritize User Experience, Accessibility, and SEO Optimization."
         />
         <meta
           name="keywords"
@@ -37,7 +37,7 @@ export default function Home() {
           <div>
             <div>
               <h1>
-                Experienced Software Developer specialising in the{" "}
+                Experienced Oxford based Software Developer specialising in the{" "}
                 <span className="font-marketing-colour">design</span> and{" "}
                 <span className="font-marketing-colour">development</span> of
                 valuable web-based solutions, both independently and in a
