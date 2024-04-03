@@ -20,15 +20,15 @@ export default function Projects() {
     <>
       <Helmet>
         <title>
-          Experienced Oxford Developer - UX and SEO friendly web apps
-        </title>
+          Oxford Web Designer: Enhancing User Experience and SEO with Expertise in Apache Cordova Development and Wordpress
+         </title>
         <meta
           name="description"
-          content="Experienced Oxford based Software Developer specialising in HTML, JavaScript (including Jquery and ReactJS), Wordpress, Apache Cordova, user experience, accessibility, SEO, and fixing website and issues."
+          content="Seasoned Software Developer in Oxford, Focused on HTML, JavaScript (including jQuery and ReactJS), Wordpress, and Apache Cordova Development. Dedicated to Crafting Solutions for Optimal User Experience, Accessibility, and SEO."
         />
         <meta
           name="keywords"
-          content="Web development Oxford, hybrid app, software developer oxford, HTML, react, CSS, JavaScript, responsive, SQL, free web design tutorial, how to code, easy to learn, learn coding, how do websites work, from scratch"
+          content="Web development Oxford, hybrid app - apache cordova developer."
         />
       </Helmet>
       <div className="services fade-in">  

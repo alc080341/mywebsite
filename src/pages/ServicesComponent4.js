@@ -56,9 +56,9 @@ const ServicesComponent4 = (props) => {
           <p>
             I can help fix HTML, CSS or JavaScript (including ReactJS and Jquery) issues.
           </p>
-          <h3>Apache Cordova, native application development and tweaks</h3>
+          <h3>Apache Cordova developer, hybrid application development and tweaks</h3>
           <p>
-            I have experience in creating apps, and fixing issues related to Apache Cordova.
+            I have experience in creating apps, and fixing issues related to Apache Cordova apps.
           </p>
         </div>
       </div>

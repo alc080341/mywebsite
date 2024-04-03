@@ -20,11 +20,11 @@ export default function Home() {
     <>
       <Helmet>
         <title>
-          Experienced Oxford Developer - UX and SEO friendly web apps
+          Experienced Affordable Oxford Web Design and Software Developer - UX and SEO friendly web apps
         </title>
         <meta
           name="description"
-          content="Upgrade Your Small Business or Startup with a Cutting-Edge Website in 2024! Trust the Expertise of an Oxford-Based Software Developer, Focused on Crafting Web Solutions for Every Device, Including Android and IOS. Our Designs Prioritize User Experience, Accessibility, and SEO Optimization."
+          content="Upgrade Your Small Business or Startup with an affordable website design for 2024! Trust the Expertise of an Oxford Based Web Software Developer, Focused on Crafting Web Solutions for Every Device, Including Android and IOS. Our Designs Prioritize User Experience, Accessibility, and SEO Optimization."
         />
         <meta
           name="keywords"
@@ -37,11 +37,9 @@ export default function Home() {
           <div>
             <div>
               <h1>
-                Experienced Oxford based Software Developer specialising in the{" "}
+                Oxford based web {" "}
                 <span className="font-marketing-colour">design</span> and{" "}
-                <span className="font-marketing-colour">development</span> of
-                valuable web-based solutions, both independently and in a
-                commercial environment.
+                <span className="font-marketing-colour">development</span> {" "}with experienced Software Developer
               </h1>
             </div>
             <div>
@@ -58,8 +56,8 @@ export default function Home() {
             </div>
             <div className="home-section-statement-txt">
               <p>
-                <span className="font-marketing-colour">Design</span> for
-                optimal user experience, accessibility and responsiveness across
+                <span className="font-marketing-colour">Design</span> for 
+                user experience considerations, accessibility and responsiveness across
                 all devices.
               </p>
             </div>
@@ -76,7 +74,7 @@ export default function Home() {
             <div className="home-section-statement-txt">
               <p>
                 <span className="font-marketing-colour">Development</span> of
-                web-based apps using modern techniques for optimal performance.
+                web based apps using modern techniques for optimal performance.
               </p>
             </div>
           </div>
