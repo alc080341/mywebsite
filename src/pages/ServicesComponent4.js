@@ -44,7 +44,7 @@ const ServicesComponent4 = (props) => {
           <p>
             I am most happy to write and edit content text for your website. Having a well-written website will give your business a more professional image on the web.
           </p>
-          <h3>Off-site SEO</h3>
+          <h3>SEO services</h3>
           <p>
             I can work on targeting and creating inbound links to your site, researching keywords/competitor keywords, and improving presence on social media platforms.
           </p>

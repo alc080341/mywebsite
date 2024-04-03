@@ -20,11 +20,11 @@ export default function Projects() {
     <>
       <Helmet>
         <title>
-          Oxford Web Designer: Enhancing User Experience and SEO with Expertise in Apache Cordova Development and Wordpress
+          Experienced Oxford based web designer and developer. Design for user experience considerations, and Apache Cordova development.
          </title>
         <meta
           name="description"
-          content="Seasoned Software Developer in Oxford, Focused on HTML, JavaScript (including jQuery and ReactJS), Wordpress, and Apache Cordova Development. Dedicated to Crafting Solutions for Optimal User Experience, Accessibility, and SEO."
+          content="Seasoned Software Developer in Oxford, Focused on HTML, JavaScript (including jQuery and ReactJS), Wordpress, and Apache Cordova Development. Dedicated to Crafting Solutions for Optimal User Experience, Accessibility, as well as offering SEO services to help rank pages higher."
         />
         <meta
           name="keywords"
