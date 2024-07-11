@@ -20,11 +20,11 @@ export default function Projects() {
     <>
       <Helmet>
         <title>
-          Experienced Oxford based web designer and developer. Design for user experience considerations, and Apache Cordova development.
+            Web Design Oxfordshire: Experienced Affordable Software Developer - web design
          </title>
         <meta
           name="description"
-          content="Seasoned Software Developer in Oxford, Focused on HTML, JavaScript (including jQuery and ReactJS), Wordpress, and Apache Cordova Development. Dedicated to Crafting Solutions for Optimal User Experience, Accessibility, as well as offering SEO services to help rank pages higher."
+          content="Small Business or Startup Website Design for 2024! Trust the expertise of an experienced freelance Software Developer, focused on crafting web solutions for every device, including Android and IOS. Designed for greate User Experience, Accessibility, and optimised for SEO."
         />
         <meta
           name="keywords"

@@ -20,11 +20,11 @@ export default function Home() {
     <>
       <Helmet>
         <title>
-          Experienced Affordable Oxford Web Design and Software Developer - UX and SEO friendly web apps
+          Web Design Oxfordshire: Experienced Affordable Software Developer
         </title>
         <meta
           name="description"
-          content="Upgrade Your Small Business or Startup with an affordable website design for 2024! Trust the Expertise of an Oxford Based Web Software Developer, Focused on Crafting Web Solutions for Every Device, Including Android and IOS. Our Designs Prioritize User Experience, Accessibility, and SEO Optimization."
+          content="Small Business or Startup Website Design for 2024! Trust the expertise of an experienced freelance Software Developer, focused on crafting web solutions for every device, including Android and IOS. Designed for greate User Experience, Accessibility, and optimised for SEO."
         />
         <meta
           name="keywords"
@@ -37,9 +37,9 @@ export default function Home() {
           <div>
             <div>
               <h1>
-                Oxford based web {" "}
-                <span className="font-marketing-colour">design</span> and{" "}
-                <span className="font-marketing-colour">development</span> {" "}with experienced Software Developer
+                Web {" "}
+                <span className="font-marketing-colour">Design</span> services in Oxfordshire. Leave the
+                <span className="font-marketing-colour"> Development</span> {" "} of your startup website or small application in the hands of an experienced Software Developer
               </h1>
             </div>
             <div>
@@ -52,29 +52,29 @@ export default function Home() {
         <div className="home-section-statement home-section-statement-2">
           <div className="home-section-statement-wrapper">
             <div className="logo">
-              <img src={AboutPageImg2} alt="icon 1 - phone" />
+              <img src={AboutPageImg2} alt="Responsive web design - for every screen size" />
             </div>
             <div className="home-section-statement-txt">
               <p>
                 <span className="font-marketing-colour">Design</span> for 
-                user experience considerations, accessibility and responsiveness across
-                all devices.
+                great user experience, accessibility and responsiveness across
+                all devices, and optimsed for search engines.
               </p>
             </div>
           </div>
         </div>
         <div className="home-section-image">
-          <img src={AboutPageImg1} alt="Laptop, tablet and phone image" />
+          <img src={AboutPageImg1} alt="JavaScript Developer for your website or small application" />
         </div>
         <div className="home-section-statement home-section-statement-3">
           <div className="home-section-statement-wrapper">
             <div className="logo">
-              <img src={AboutPageImg3} alt="icon 2 - tablet" />
+              <img src={AboutPageImg3} alt="Web based apps for all devices including Android and IOS" />
             </div>
             <div className="home-section-statement-txt">
               <p>
                 <span className="font-marketing-colour">Development</span> of
-                web based apps using modern techniques for optimal performance.
+                web based apps using modern techniques. Turn an existing web application into an Android or an IOS app.
               </p>
             </div>
           </div>

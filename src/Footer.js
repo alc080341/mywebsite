@@ -17,7 +17,7 @@ export default function Footer() {
                 <FooterLink to="/contact" text="Contact" />
                 <FooterLink to="/codechambers" text="Code Chambers" />
             </ul>
-            <div className="align-center"><p>V2.0.1 03/04/2024</p></div>
+            <div className="align-center"><p>V2.0.2 09/04/2024</p></div>
         </nav>
     )
 }

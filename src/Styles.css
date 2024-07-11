@@ -885,15 +885,19 @@ textarea {
     border-radius: 5px;
     padding: 10px;
     background-color: #EEF2F8;
+    display: flex;
 }
 
 .services .services-section.dark {
     background-color: #036b81;
 }
 
-
 .services .services-section div {
     padding: 10px;
+}
+
+.services .services-section img {
+    width: 400px;
 }
 
 .services .services-section h1, .services .services-section h3 {
@@ -925,6 +929,15 @@ textarea {
 @media all and (max-width: 1000px) {
     .services {
         width: 100%;
+    }
+
+    .services .services-section {
+        display: block;
+    }
+    
+    .services .services-section img {
+        width: 100%;
+        margin: auto;
     }
 }
 

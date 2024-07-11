@@ -48,6 +48,10 @@ const ServicesComponent4 = (props) => {
           <p>
             I can work on targeting and creating inbound links to your site, researching keywords/competitor keywords, and improving presence on social media platforms.
           </p>
+          <h3>User Experience considerations</h3>
+          <p>
+            Are users complaining about your site? Perhaps too slow or hard to navigate? I can perform site evaluations to test for site speed/accessibility and find ways to improve the user experience.
+          </p>
           <h3>Wordpress optimisation</h3>
           <p>
             Need a plugin that you can't find? Wordpress site just stopped working? Get in touch!
@@ -56,9 +60,15 @@ const ServicesComponent4 = (props) => {
           <p>
             I can help fix HTML, CSS or JavaScript (including ReactJS and Jquery) issues.
           </p>
-          <h3>Apache Cordova developer, hybrid application development and tweaks</h3>
+          <h3>Turn website into an app!</h3>
           <p>
-            I have experience in creating apps, and fixing issues related to Apache Cordova apps.
+            I have experience in creating hybrid apps using Apache Cordova and Capacitor - these both allow web based code to be packaged as Android or IOS apps.
+          </p>
+          <p>
+            If you already have a browser based application, this would allow quick development of apps
+          </p>
+          <p>
+            I also have experience in fixing issues related to commericial Apache Cordova apps.
           </p>
         </div>
       </div>
